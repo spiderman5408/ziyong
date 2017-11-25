@@ -35,6 +35,8 @@ echo "
 
 【15】端口开放(SSR多端口无网需开放端口) 
 
+【16】一键安装libsodium
+
                    有问题告诉我:643822883
 
 ---------------------------------------------------------
@@ -188,5 +190,11 @@ wget -N --no-check-certificate ${url}/dk;
 bash dk;
 fi
 
+#(一键安装libsodium)
+if test $os == 16 ;then
+echo '******正在安装libsodium，请等待几分钟******';
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/libsodium/libsodium.sh;
+chmod +x libsodium.sh;
+bash libsodium.sh;
 
 exit 0
