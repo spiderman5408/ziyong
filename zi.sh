@@ -195,7 +195,7 @@ fi
 #一键安装libsodium
 if test $os == 16 ;then
 echo '******正在安装libsodium，请等待几分钟******';
-wget -N --no-check-certificate ${url}/libsodium.sh;
+wget -N --no-check-certificate ${url}/libsodium/libsodium.sh;
 chmod +x libsodium.sh;
 bash libsodium.sh;
 fi
