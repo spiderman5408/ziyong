@@ -37,6 +37,8 @@ echo "
 
 【16】一键安装libsodium
 
+【17】一键安装ariaNG和filemanger
+
                    有问题告诉我:643822883
 
 ---------------------------------------------------------
@@ -190,11 +192,18 @@ wget -N --no-check-certificate ${url}/dk;
 bash dk;
 fi
 
-#(一键安装libsodium)
+#一键安装libsodium
 if test $os == 16 ;then
 echo '******正在安装libsodium，请等待几分钟******';
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/libsodium/libsodium.sh;
 chmod +x libsodium.sh;
 bash libsodium.sh;
+
+#一键安装ariaNG和filemanger
+if test $os == 17 ;then
+echo '******正在安装ariaNG和filemanger，请等待几分钟******';
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ariaNGandfilemanger.sh;
+chmod +x ariaNGandfilemanger.sh;
+bash ariaNGandfilemanger.sh;
 
 exit 0
