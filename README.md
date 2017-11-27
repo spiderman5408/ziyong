@@ -85,10 +85,10 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 ```bash
 
 ```
-- 相关指令:
-启动: bash bbr.sh start  
+- 相关指令:  
+启动: bash bbr.sh start  
 关闭: bash bbr.sh stop  
-查看状态: bash bbr.sh stauts  
+查看状态: bash bbr.sh stauts  
 升级: bash bbr.sh  
 
 
