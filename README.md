@@ -113,7 +113,18 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 访问前端: http://vps_ip:88  
 - 访问filemanger: http://vps_ip/Download/files  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
-- AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download
+- AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download  
+
+- 支持 上传文件
+- 支持 按类型 搜索文件
+- 支持 批量压缩 文件下载
+- 支持 多用户管理(权限可控)
+- 支持 在网页执行 Linux命令
+- 支持 创建 共享链接(限时/永久)
+- 支持 在线编辑 各类文本文件
+- 支持 在线浏览 图片/文本/视频等
+- 支持 新建/重命名/移动/删除 文件和文件夹等
+- 等等
 ---
 
 ## caddy_install.sh
