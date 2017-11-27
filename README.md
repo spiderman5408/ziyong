@@ -33,9 +33,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 一键安装libsodium
 
 - 一键安装ariaNG和filenanger  
-
 ---
-
 # 单独安装:
 ## ssr.sh  
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持单端口/多端口切换和管理  
