@@ -31,8 +31,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 安装目录：/usr/local/shadowsocksr
 - 配置文件：/usr/local/shadowsocksr/user-config.json
 - 数据文件：/usr/local/shadowsocksr/mudb.json
-- 相关指令: 启动 ShadowsocksR：/etc/init.d/ssrmu start  
-           停止 ShadowsocksR：/etc/init.d/ssrmu stop  
+- 相关指令: 启动 ShadowsocksR：/etc/init.d/ssrmu start  
+           停止 ShadowsocksR：/etc/init.d/ssrmu stop  
            重启 ShadowsocksR：/etc/init.d/ssrmu restart  
            查看 ShadowsocksR状态：/etc/init.d/ssrmu status
 ---
