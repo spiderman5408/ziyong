@@ -26,7 +26,7 @@
 ## ssr.sh  
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持单端口/多端口切换和管理  
 - 使用方法:  
-> wget
+> wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ssr.sh  && chmod +x ssr.sh && bash ssr.sh
 ---
 - 支持 限制 用户速度
 - 支持 限制 用户设备数
