@@ -1,7 +1,7 @@
 备注:只有'聪明人'才会用的脚本
 ---
-# 一键综合
-系统支持: CentOS6+ / Debian6+ / Ubuntu14+  
+# 一键综合:
+系统支持: CentOS6+ / Debian6+ / Ubuntu14+  
 使用方法: 
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh
