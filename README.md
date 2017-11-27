@@ -47,10 +47,10 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 配置文件：/usr/local/shadowsocksr/user-config.json
 - 数据文件：/usr/local/shadowsocksr/mudb.json
 - 相关指令:  
-启动 ShadowsocksR：/etc/init.d/ssrmu start  
-停止 ShadowsocksR：/etc/init.d/ssrmu stop  
-重启 ShadowsocksR：/etc/init.d/ssrmu restart  
-查看 ShadowsocksR状态：/etc/init.d/ssrmu status  
+启动：/etc/init.d/ssrmu start  
+停止：/etc/init.d/ssrmu stop  
+重启：/etc/init.d/ssrmu restart  
+查看状态：/etc/init.d/ssrmu status  
 
 - 支持 限制 用户速度
 - 支持 限制 用户设备数
@@ -72,7 +72,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 配置文件：/root/.aria2/aria2.conf（配置文件包含中文注释，但是一些系统可能不支持显示中文)
 - 默认密匙: laogan
 - 下载目录: /usr/local/caddy/www/aria2/Download
-- 其他指令:  
+- 相关指令:  
 启动：/etc/init.d/aria2 start  
 停止：/etc/init.d/aria2 stop  
 重启：/etc/init.d/aria2 restart  
@@ -85,3 +85,10 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 ```bash
 
 ```
+- 相关指令:
+启动: bash bbr.sh start  
+关闭: bash bbr.sh stop  
+查看状态: bash bbr.sh stauts  
+升级: bash bbr.sh  
+
+
