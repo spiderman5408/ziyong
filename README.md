@@ -21,8 +21,8 @@
 - 一键安装libsodium
 - 一键安装ariaNG和filenanger  
 ---
-单独安装:  
----  
+单独安装:
+---
 ssr.sh
 ---  
 - 支持 限制 用户速度
