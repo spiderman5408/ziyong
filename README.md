@@ -113,7 +113,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 访问前端: http://vps_ip:88  
 - 访问filemanger: http://vps_ip/Download/files  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
-- AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download  
+- AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download  
+- Filemanager数据库位置：/usr/local/caddy/filemanager.db
 
 - 支持 上传文件
 - 支持 按类型 搜索文件
@@ -140,5 +141,6 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 查看状态：/etc/init.d/caddy statusCaddy  
 配置文件：/usr/local/caddy/CaddyfileCaddy  
 虚拟主机：/usr/local/caddy/www  
+查看Caddy启动日志： tail -f /tmp/caddy.log
 ---
 
