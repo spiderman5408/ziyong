@@ -108,7 +108,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 脚本说明: aria2在线管理面板，需要基于caddy使用
 - 使用方法:  
 ```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ariaNGandfilemanger.sh && chmod +x ariaNGandfilemangersh && bash ariaNGandfilemanger.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ariaNGandfilemanger.sh && chmod +x ariaNGandfilemanger.sh && bash ariaNGandfilemanger.sh
 ```
 - 访问前端: http://vps_ip:88  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
