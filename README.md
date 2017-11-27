@@ -19,9 +19,8 @@
 - 锐速破解卸载
 - 端口开放(SSR多端口无网需开放端口)
 - 一键安装libsodium
-- 一键安装ariaNG和filenanger
+- 一键安装ariaNG和filenanger  
 ---
-
 单独安装:  
 ---  
 ssr.sh
