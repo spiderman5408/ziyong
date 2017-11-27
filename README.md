@@ -49,5 +49,19 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 支持 一键封禁 垃圾邮件(SMAP)/BT/PT  
 ---
 
-##
+## aria2.sh
+- 脚本说明: aria2一键安装/管理，支持大多数主流下载类型
+- 使用方法:  
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+```
+- 配置文件：/root/.aria2/aria2.conf（配置文件包含中文注释，但是一些系统可能不支持显示中文)
+- 默认密匙: laogan
+- 下载目录: /usr/local/caddy/www/aria2/Download
+- 其他指令:  
+启动：/etc/init.d/aria2 start  
+停止：/etc/init.d/aria2 stop  
+重启：/etc/init.d/aria2 restart  
+查看状态：/etc/init.d/aria2 status  
 
+---
