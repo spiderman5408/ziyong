@@ -99,7 +99,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 
 ```
 相关指令:  
-启动: gost start  
+启动: gost start  
 关闭: gost stop  
 重启: gost restart  
 查看状态: gost status  
