@@ -37,7 +37,7 @@ echo "
 
 【16】一键安装libsodium
 
-【17】一键安装ariaNG和filemanger
+【17】一键安装ariaNG和filemanger(基于caddy)
 
              有问题告诉我:643822883@qq.com(wyg643822883@gmail.com)或git留言
 
