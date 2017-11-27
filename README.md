@@ -89,6 +89,20 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 启动: bash bbr.sh start  
 关闭: bash bbr.sh stop  
 查看状态: bash bbr.sh stauts  
-升级: bash bbr.sh  
+升级bbr: bash bbr.sh  
+---
 
+## gost.sh
+- 脚本说明: gost是linux下转发udp的小程序
+- 使用方法:  
+```bash
+
+```
+相关指令:
+启动: gost start  
+关闭: gost stop  
+重启: gost restart  
+查看状态: gost status  
+呼出帮助: gost help
+---
 
