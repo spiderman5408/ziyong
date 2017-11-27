@@ -110,7 +110,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ariaNGandfilemanger.sh && chmod +x ariaNGandfilemanger.sh && bash ariaNGandfilemanger.sh
 ```
-- 访问前端: http://vps_ip:88  
+- 访问前端: http://vps_ip:88  
+- 访问filemanger: http://vps_ip/Download/files  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
 - AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download
 ---
