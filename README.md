@@ -2,6 +2,11 @@
 ---
 目前有的功能有这些，以后不断添加
 
+系统支持: CentOS6+ / Debian6+ / Ubuntu14+
+使用方法: 
+    wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh
+项目地址: https://github.com/643822883/daige
+
 - 测试上传下載网速延迟配置
 - SSR多端口安装 
 - gost一鍵安装(不帶监控)
