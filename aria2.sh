@@ -2,13 +2,6 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
-#=================================================
-#	System Required: CentOS/Debian/Ubuntu
-#	Description: Aria2
-#	Version: 1.1.0
-#	Author: Toyo
-#	Blog: https://doub.io/shell-jc4/
-#=================================================
 sh_ver="1.1.0"
 file="/root/.aria2"
 aria2_conf="/root/.aria2/aria2.conf"
