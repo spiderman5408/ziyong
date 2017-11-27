@@ -6,9 +6,7 @@
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh
 ```
-项目地址: https://github.com/643822883/daige  
-
-
+项目地址: https://github.com/643822883/daige  
 
 目前有的功能有这些，以后不断添加
 
@@ -34,8 +32,10 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 
 - 一键安装libsodium
 
-- 一键安装ariaNG和filenanger 
+- 一键安装ariaNG和filenanger  
+
 ---
+
 # 单独安装:
 ## ssr.sh  
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持单端口/多端口切换和管理  
