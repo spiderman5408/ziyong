@@ -81,7 +81,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 脚本说明: BBR 是一个由谷歌社区开发的 TCP拥塞控制技术，是集成与Linux最新版本的内核中的
 - 使用方法:
 ```bash
-
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
 - 相关指令:  
 启动: bash bbr.sh start  
@@ -94,7 +94,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 脚本说明: gost是linux下转发udp的小程序
 - 使用方法:  
 ```bash
-
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/gost.sh && chmod +x gost.sh && bash gost.sh
 ```
 - 相关指令:  
 启动: gost start  
@@ -104,22 +104,22 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 呼出帮助: gost help
 ---
 
-## ariaNG.sh
+## ariaNG+fliemanger.sh
 - 脚本说明: aria2在线管理面板，需要基于caddy使用
 - 使用方法:  
 ```bash
-
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/ariaNGandfilemanger.sh && chmod +x ariaNGandfilemangersh && bash ariaNGandfilemanger.sh
 ```
 - 访问前端: http://vps_ip:88  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
 - AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download
 ---
 
-## caddy.sh
+## caddy_install.sh
 - 脚本说明: 一个很简单的HTTP服务器，如果你想要使用Nginx/Apache或者LNMP一键包之类的，使用方法自行谷歌
 - 使用方法:  
 ```bash
-
+wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_inatall.sh
 ```
 - 相关指令:  
 启动：/etc/init.d/caddy start  
