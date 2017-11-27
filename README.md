@@ -104,3 +104,18 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 呼出帮助: gost help
 ---
 
+## ariaNG.sh
+- 脚本说明: aria2在线管理面板，需要基于caddy使用
+- 使用方法:  
+```bash
+
+```
+- AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
+- AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download
+- 相关指令:  
+启动：/etc/init.d/caddy start  
+停止：/etc/init.d/caddy stop  
+重启：/etc/init.d/caddy restart  
+查看状态：/etc/init.d/caddy status
+---
+
