@@ -110,12 +110,23 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 ```bash
 
 ```
+- 访问前端: http://vps_ip:88  
 - AriaNg 虚拟主机文件夹：/usr/local/caddy/www/aria2
 - AriaNg 下载文件夹：/usr/local/caddy/www/aria2/Download
-- 相关指令:  
+---
+
+## caddy.sh
+- 脚本说明: 一个很简单的HTTP服务器，如果你想要使用Nginx/Apache或者LNMP一键包之类的，使用方法自行谷歌
+- 使用方法:  
+```bash
+
+```
+- 相关指令:  
 启动：/etc/init.d/caddy start  
 停止：/etc/init.d/caddy stop  
 重启：/etc/init.d/caddy restart  
-查看状态：/etc/init.d/caddy status
+查看状态：/etc/init.d/caddy statusCaddy  
+配置文件：/usr/local/caddy/CaddyfileCaddy  
+虚拟主机：/usr/local/caddy/www  
 ---
 
