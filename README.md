@@ -2,8 +2,7 @@
 ---
 
 系统支持: CentOS6+ / Debian6+ / Ubuntu14+  
-使用方法:  
-> wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh  
+使用方法: wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh  
 项目地址: https://github.com/643822883/daige  
 
 ---
