@@ -140,7 +140,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 重启：/etc/init.d/caddy restart  
 查看状态：/etc/init.d/caddy statusCaddy  
 配置文件：/usr/local/caddy/CaddyfileCaddy  
-虚拟主机：/usr/local/caddy/www  
+虚拟主机：/usr/local/caddy/www  
 查看Caddy启动日志： tail -f /tmp/caddy.log
 ---
 
