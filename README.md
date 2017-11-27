@@ -76,6 +76,12 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 启动：/etc/init.d/aria2 start  
 停止：/etc/init.d/aria2 stop  
 重启：/etc/init.d/aria2 restart  
-查看状态：/etc/init.d/aria2 status  
-
+查看状态：/etc/init.d/aria2 status  
 ---
+
+## bbr.sh
+- 脚本说明: BBR 是一个由谷歌社区开发的 TCP拥塞控制技术，是集成与Linux最新版本的内核中的
+- 使用方法:
+```bash
+
+```
