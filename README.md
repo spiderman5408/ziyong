@@ -36,7 +36,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 停止 ShadowsocksR：/etc/init.d/ssrmu stop  
 重启 ShadowsocksR：/etc/init.d/ssrmu restart  
 查看 ShadowsocksR状态：/etc/init.d/ssrmu status
-
+---
 - 支持 限制 用户速度
 - 支持 限制 用户设备数
 - 支持 限制 用户总流量
