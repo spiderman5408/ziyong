@@ -1,12 +1,12 @@
 备注:只有'聪明人'才会用的脚本
 ---
 # 一键综合:
-系统支持: CentOS6+ / Debian6+ / Ubuntu14+  
+- 系统支持: CentOS6+ / Debian6+ / Ubuntu14+  
 使用方法: 
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/zi.sh && bash zi.sh
 ```
-项目地址: https://github.com/643822883/daige  
+- 项目地址: https://github.com/643822883/daige  
 
 目前有的功能有这些，以后不断添加
 
