@@ -70,11 +70,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 配置文件：/root/.aria2/aria2.conf（配置文件包含中文注释，但是一些系统可能不支持显示中文)
 - 默认密匙: laogan
 - 下载目录: /usr/local/caddy/www/aria2/Download
-- 相关指令:  
+- 相关指令:  
 启动：/etc/init.d/aria2 start  
 停止：/etc/init.d/aria2 stop  
 重启：/etc/init.d/aria2 restart  
-查看状态：/etc/init.d/aria2 status  
+查看状态：/etc/init.d/aria2 status  
 ---
 
 ## bbr.sh
