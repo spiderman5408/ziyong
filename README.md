@@ -96,11 +96,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 net.ipv4.tcp_available_congestion_control = bbr cubic reno  
 `sysctl net.ipv4.tcp_congestion_control`  
 返回值一般为：  
-net.ipv4.tcp_congestion_control = bbr  
-`sysctl net.core.default_qdisc`  
+net.ipv4.tcp_congestion_control = bbr  
+`sysctl net.core.default_qdisc`  
 返回值一般为：  
-net.core.default_qdisc = fq  
-`lsmod | grep bbr`  
+net.core.default_qdisc = fq  
+`lsmod | grep bbr`  
 返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常  
 ---
 
