@@ -89,9 +89,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 查看状态: bash bbr.sh stauts  
 升级bbr: bash bbr.sh  
 验证一下是否成功安装最新内核并开启 TCP BBR，输入以下命令:  
-> uname -r  
+`uname -r`
 查看内核版本，含有 4.13 就表示 OK 了  
-> sysctl net.ipv4.tcp_available_congestion_control  
+`sysctl net.ipv4.tcp_available_congestion_control`
 返回值一般为:  
 net.ipv4.tcp_available_congestion_control = bbr cubic reno
 > sysctl net.ipv4.tcp_congestion_control
