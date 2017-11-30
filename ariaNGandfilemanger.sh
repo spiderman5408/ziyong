@@ -46,5 +46,5 @@ service caddy restart;
 
 
 echo '安装成功，打开http://vps_ip:88/Download/files即可管理文件
-http://vps_ip:88管理ariaNG ';
+                  http://vps_ip:88管理ariaNG ';
 
