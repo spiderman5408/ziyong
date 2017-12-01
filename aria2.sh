@@ -234,7 +234,6 @@ Update_Shell(){
 	fi
 }
 echo && echo -e " Aria2 一键安装管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  -- Toyo | doub.io/shell-jc4 --
   
  ${Green_font_prefix}0.${Font_color_suffix} 升级脚本
 ————————————
