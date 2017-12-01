@@ -48,6 +48,6 @@ chmod -R 755 /usr/local/caddy/www/aria2;
 service caddy restart;
 
 
-echo '安装成功，打开http://vps_ip:88/Download/files即可管理文件
+echo '安装成功，打开http://vps_ip:88/Download即可管理文件
                   http://vps_ip:88管理ariaNG ';
 
