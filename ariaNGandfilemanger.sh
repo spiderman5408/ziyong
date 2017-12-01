@@ -30,6 +30,9 @@ filemanager /Download ./usr/local/caddy/www/aria2/Download {
 mkdir /usr/local/caddy/www/aria2/Download;
 cd /usr/local/caddy/www/aria2;
 
+#安装unzip
+apt-get install unzip
+
 
 #下载并解压ariaNG文件
 wget -N --no-check-certificate "https://raw.githubusercontent.com/643822883/daige/master/ariaNG/aria-ng-0.3.0.zip";
