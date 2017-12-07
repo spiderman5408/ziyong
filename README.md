@@ -68,7 +68,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh
 ```
 - 配置文件：/root/.aria2/aria2.conf（配置文件包含中文注释，但是一些系统可能不支持显示中文)
-- 默认密匙: laogan
+- 默认密匙: laog
 - 下载目录: /usr/local/caddy/www/aria2/Download
 - 相关指令:  
 启动：/etc/init.d/aria2 start  
