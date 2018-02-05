@@ -77,7 +77,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 查看状态：/etc/init.d/aria2 status 
 - 更新日志: 
 > 2018年01月17日，版本 v1.1.1 新增 Vim编辑器安装代码 
+
 > 2018年01月18日，版本 v1.1.2 修复 Aria2 卸载不完全的问题  
+
 > 2018年01月22日，版本 v1.1.3
 1. 新增 一键修改 RPC密码、RPC端口 以及 文件下载位置 的功能 
 2. 新增 查看 配置信息 功能 
