@@ -168,7 +168,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 支持 新建/重命名/移动/删除 文件和文件夹等
 - 等等  
 - 更新日志:  
-> 2017.12.1修复部分系统无法解压文件
+> 2017.12.1修复centos缺少unzip而无法解压
 ---
 
 ## caddy_install.sh
