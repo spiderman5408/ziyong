@@ -126,7 +126,9 @@ net.ipv4.tcp_congestion_control = bbr
 返回值一般为：  
 net.core.default_qdisc = fq  
 `lsmod | grep bbr`  
-返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常  
+返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常 
+- 更新日志：
+> 2018年02月04日，版本 v1.0.21 修复 v4.15.0 内核版本后，脚本检测BBR状态错误问题 
 ---
 
 ## gost.sh
