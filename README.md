@@ -74,7 +74,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 启动：/etc/init.d/aria2 start  
 停止：/etc/init.d/aria2 stop  
 重启：/etc/init.d/aria2 restart  
-查看状态：/etc/init.d/aria2 status  
+查看状态：/etc/init.d/aria2 status 
+- 更新日志: 
+> 2018年01月17日，版本 v1.1.1 新增 Vim编辑器安装代码（6. 修改 配置文件 选项会用到，考虑到一些人服务器没安装，所以特别加上）。
 ---
 
 ## bbr.sh
