@@ -39,6 +39,8 @@ echo "
 
 【17】一键安装ariaNG和filemanger(基于caddy)
 
+【18】一键安装Rclone并挂载云盘加自动上传
+
              有问题告诉我:643822883@qq.com(wyg643822883@gmail.com)或git留言
 
 ---------------------------------------------------------
@@ -206,6 +208,14 @@ echo '******正在安装ariaNG和filemanger，请等待几分钟******';
 wget -N --no-check-certificate ${url}/ariaNGandfilemanger.sh;
 chmod +x ariaNGandfilemanger.sh;
 bash ariaNGandfilemanger.sh;
+fi
+
+#一键安装Rclone并挂载云盘加自动上传
+if test $os == 18 ;then
+echo '******开始安装Rclone******';
+wget -N --no-check-certificate ${url}/Rclone.sh;
+chmod +x Rclone.sh;
+bash Rclone.sh;
 fi
 
 exit 0
