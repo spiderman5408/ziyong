@@ -1,0 +1,10 @@
+[Unit]
+Description=rclone
+    
+[Service]
+User=root
+ExecStart=/usr/bin/rclone mount lala: /lala/gdrive --allow-other --allow-non-empty --vfs-cache-mode writes
+Restart=on-abort
+    
+[Install]
+WantedBy=multi-user.target
