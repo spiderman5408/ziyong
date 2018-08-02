@@ -34,7 +34,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 
 - 一键安装ariaNG和filenanger  
 
-- 一键安装Rclone并挂载云盘  
+- 一键安装Rclone并挂载云盘加自动上传  
 ---
 # 单独安装:
 ## ssr.sh  
@@ -192,3 +192,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 ## Rclone.sh
 - 脚本说明：Rclone是一款的命令行工具，支持在不同对象存储、网盘间同步、上传、下载数据。  
 - 使用方法：
+```bash
+wget --no-check-certificate -N "https://raw.githubusercontent.com/643822883/daige/master/Rclone.sh" && chmod +x Rclone.sh && bash Rclone.sh
