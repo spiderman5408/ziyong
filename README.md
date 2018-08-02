@@ -189,4 +189,6 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 虚拟主机：/usr/local/caddy/www  
 查看Caddy启动日志： tail -f /tmp/caddy.log
 ---
-
+## Rclone.sh
+- 脚本说明：Rclone是一款的命令行工具，支持在不同对象存储、网盘间同步、上传、下载数据。  
+- 使用方法：
