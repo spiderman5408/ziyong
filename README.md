@@ -33,6 +33,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/643822883/daige
 - 一键安装libsodium
 
 - 一键安装ariaNG和filenanger  
+
+- 一键安装Rclone并挂载云盘  
 ---
 # 单独安装:
 ## ssr.sh  
