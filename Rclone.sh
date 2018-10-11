@@ -20,6 +20,9 @@ mkdir -p /lala/gdrive
 #新建一个rclone.service文件
 mkdir -p /usr/lib/systemd/system
 
+#把rclone的可执行文件复制到/usr/bin
+cp /root/rclone-v1.42-linux-amd64/rclone /usr/bin/rclone
+
 cd /usr/lib/systemd/system
 
 wget --no-check-certificate -N "https://raw.githubusercontent.com/643822883/daige/master/Rclone/rclone.service" 
