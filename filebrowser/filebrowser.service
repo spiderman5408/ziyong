@@ -1,0 +1,19 @@
+[Unit]
+
+Description=filebrowser
+
+    
+
+[Service]
+
+User=root
+
+ExecStart=/usr/bin/filebrowser --port 2333
+
+Restart=on-abort
+
+    
+
+[Install]
+
+WantedBy=multi-user.target
