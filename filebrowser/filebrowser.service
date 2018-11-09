@@ -8,7 +8,7 @@ Description=filebrowser
 
 User=root
 
-ExecStart=/usr/bin/filebrowser --port 2333
+ExecStart=/usr/bin/filebrowser --port 996
 
 Restart=on-abort
 
