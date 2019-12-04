@@ -111,7 +111,7 @@ function pre_install(){
     echo	
 		
 	if [ "$xzy" == "2" ];then
-	    xzy="https://raw.githubusercontent.com/spiderman5408/daige/master/gost/gost_2.3_linux_amd64.tar.gz"
+	    xzy="https://raw.githubusercontent.com/spiderman5408/ziyong/master/gost/gost_2.3_linux_amd64.tar.gz"
     else
 	    xzy="https://app5408.nos-eastchina1.126.net/gost_2.3_linux_amd64.tar.gz"
 	fi
