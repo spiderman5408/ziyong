@@ -278,7 +278,7 @@ installV2Ray(){
         mkdir -p /var/log/v2ray
 
         colorEcho ${BLUE} "Downloading VNetPanel v2ray config."
-        DOWNLOAD_LINK="https://github.com/ColetteContreras/v2ray-poseidon/wiki/v2ray-poseidon-vnetpanel/config.json"
+        DOWNLOAD_LINK="https://spider-1300246764.cos.ap-beijing.myqcloud.com/v2/config.json"
         curl ${PROXY} -L -H "Cache-Control: no-cache" -o "/etc/v2ray/config.json" ${DOWNLOAD_LINK}
         if [ $? != 0 ];then
             colorEcho ${RED} "Failed to download! Please check your network or try again."
