@@ -89,7 +89,7 @@ function InstallGost() {
     if [[ ${ans} = n ]]; then
         echo -e "下载安装最新gost"
         version=`GetLatestRelease ginuerzh/gost | sed -e "s|^v||"`
-        wget "https://github.com/ginuerzh/gost/releases/download/v${version}/gost-linux-amd64-${version}.gz" -O gost.gz
+        wget "https://github.com/spiderman5408/gost/releases/download/v${version}/gost-linux-amd64-${version}.gz" -O gost.gz
         gunzip gost.gz
     fi
     # 清理安装的环境，防止重复安装的影响
